@@ -19,12 +19,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="@color/colorAccent"
+        android:background="@color/colorPrimaryDark"
         android:text="Find Bakeries"
         android:textColor="@color/colorTextIcons"/>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/bakeryTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -32,8 +32,20 @@
         android:layout_marginTop="35dp"
         android:textSize="35sp"
         android:text="Welcome!!"
-        android:textColor="@color/colorPrimaryDark" />
+        android:textColor="@color/colorAccent" />
 
+    <EditText
+        android:id="@+id/locationEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="@color/colorTextIcons"
+        android:layout_above="@+id/findBakeriesButton"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:hint="Enter Zip Code"
+        android:layout_centerHorizontal="true"/>
 
 
 </RelativeLayout>
