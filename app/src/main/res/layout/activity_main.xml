@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/button"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <ImageView
@@ -21,6 +22,7 @@
         android:layout_centerHorizontal="true"
         android:background="@color/colorPrimaryDark"
         android:text="Find Bakeries"
+        android:padding="10dp"
         android:textColor="@color/colorTextIcons"/>
 
     <TextView
@@ -30,15 +32,16 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
-        android:textSize="35sp"
         android:text="Welcome!!"
-        android:textColor="@color/colorAccent" />
+        android:textColor="@color/colorAccent"
+        android:textSize="35dp"
+        app:fontFamily="monospace" />
 
     <EditText
         android:id="@+id/locationEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
+        android:ems="5"
         android:inputType="textPersonName"
         android:background="@color/colorTextIcons"
         android:layout_above="@+id/findBakeriesButton"
