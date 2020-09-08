@@ -42,13 +42,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="5"
-        android:inputType="textPersonName"
+        android:inputType="phone"
         android:background="@color/colorTextIcons"
         android:layout_above="@+id/findBakeriesButton"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="20dp"
         android:padding="5dp"
-        android:hint="Enter Zip Code"
+        android:hint="Enter Code"
         android:layout_centerHorizontal="true"/>
-
 
 </RelativeLayout>
